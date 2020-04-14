@@ -27,7 +27,7 @@ setuptools.setup(
     
     package_dir={'': 'src'},
     packages=[
-        'limecore.logging',],
+        'limecore.core.di',],
     
     install_requires=required,
     python_requires='>=3.7',
